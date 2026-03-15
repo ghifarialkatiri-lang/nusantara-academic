@@ -1,4 +1,3 @@
-# nusantara-academic
 <!DOCTYPE html>
 <html>
 <head>
