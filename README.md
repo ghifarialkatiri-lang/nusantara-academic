@@ -1,9 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-<title>Nusantara Academic Journal</title>
-<style>
-body{
+
 font-family:Times New Roman;
 margin:40px;
 background:#f5f5f5;
