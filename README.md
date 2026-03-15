@@ -1,4 +1,9 @@
-
+<!DOCTYPE html>
+<html>
+<head>
+<title>Nusantara Academic Journal</title>
+<style>
+body{
 font-family:Times New Roman;
 margin:40px;
 background:#f5f5f5;
@@ -49,7 +54,8 @@ Penulis: Nama Penulis<br>
 
 </div>
 
-</body><!DOCTYPE html>
+</body>
+</html><!DOCTYPE html>
 <html>
 <head>
 <title>Nusantara Academic Journal</title>
@@ -97,29 +103,46 @@ Penulis: Nama Penulis<br>
 </html><!DOCTYPE html>
 <html>
 <head>
-<title>About Journal</title>
+<title>Nusantara Academic Journal</title>
 <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
 <header>
-<h1>About Nusantara Academic Journal</h1>
+<h1>Nusantara Academic Journal</h1>
+<p>Volume 1 Issue 1 (2026)</p>
+
+<nav>
+<a href="index.html">Home</a>
+<a href="about.html">About</a>
+<a href="editorial.html">Editorial Board</a>
+<a href="author.html">Author Guidelines</a>
+</nav>
+
 </header>
 
 <div class="container">
 
-<p>
-Nusantara Academic Journal is a scholarly journal that publishes
-research in social science, education, economics, and interdisciplinary studies.
-</p>
+<h2>Articles</h2>
 
-<p>
-The journal aims to promote academic discussion and scientific
-contributions from researchers, lecturers, and students.
-</p>
+<div class="article">
+<h3>Judul Artikel Pertama</h3>
+<p>Penulis: Nama Penulis</p>
+<a href="#">Download PDF</a>
+</div>
+
+<div class="article">
+<h3>Judul Artikel Kedua</h3>
+<p>Penulis: Nama Penulis</p>
+<a href="#">Download PDF</a>
+</div>
 
 </div>
+
+<footer>
+<p>© 2026 Nusantara Academic Journal</p>
+</footer>
 
 </body>
 </html><!DOCTYPE html>
@@ -184,3 +207,43 @@ The manuscript must include:
 
 </div>
 
+</body>
+</html>body{
+font-family:Times New Roman;
+background:#f5f5f5;
+margin:0;
+}
+
+header{
+background:#0b3d91;
+color:white;
+padding:20px;
+text-align:center;
+}
+
+nav a{
+color:white;
+margin:10px;
+text-decoration:none;
+font-weight:bold;
+}
+
+.container{
+background:white;
+padding:30px;
+max-width:900px;
+margin:auto;
+margin-top:20px;
+box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+.article{
+border-bottom:1px solid #ddd;
+padding:15px;
+}
+
+footer{
+text-align:center;
+padding:20px;
+margin-top:30px;
+}
